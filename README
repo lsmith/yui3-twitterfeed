@@ -1,0 +1,12 @@
+Module 'twitter-feed'.
+
+Widget Y.TwitterFeed creates a regularly updating twitter status box for display on your site.  Displayed number of tweets and update frequency are configurable.
+
+Example:
+YUI({...}).use('twitter-feed', function (Y) {
+    new Y.TwitterFeed({
+        username       : 'iznofool',
+        count          : 3,
+        refreshSeconds : 15
+    }).render();
+});

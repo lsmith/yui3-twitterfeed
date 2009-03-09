@@ -1,0 +1,53 @@
+.yui-twitterfeed-content {
+    font: normal 13px/1.4 Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.twitter-feed-title {
+    border-bottom: 4px solid #ccc;
+    margin: 0;
+}
+
+.twitter-feed-updates {
+    list-style: none;
+    margin: 1ex 0;
+    padding: 0;
+}
+
+.twitter-feed-updates li {
+    border-bottom: 1px dotted #ccc;
+    padding: 1ex 1em;
+}
+
+.twitter-feed-updates p {
+    margin: 0;
+}
+
+.twitter-feed-timestamp {
+    font-size: 12px;
+    padding-left: 2em;
+    white-space: nowrap;
+    color: #999;
+    font-style: italic;
+}
+
+.twitter-feed-follow {
+    background: #808080;
+    border: 1px solid #000;
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    width: 75px;
+}
+
+.twitter-feed-follow span {
+    vertical-align: middle;
+}
